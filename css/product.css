@@ -1,0 +1,196 @@
+body {
+	background-color: #F6F6F6;
+}
+/*设置a标签点击时的闪现效果*/
+body a{
+	-webkit-tap-highlight-color:rgba(170,170,170,0.5);
+}
+/*内容中心上部banner图开始*/
+
+.banner .item a img {
+	height: 9.38rem;
+}
+
+
+/*内容中心*/
+
+#wrap {
+	width: 15rem;
+	padding: 0.21rem;
+}
+.com_message .lett2,.com_message .lett3 {
+	position: relative;
+	overflow: hidden;
+}
+.com_message .lett2 {
+	height: 4rem;
+}
+.com_message .lett3 {
+	height: 4.7rem;
+}
+.com_message .lett2::after,.com_message .lett3::after {
+	content: "...";
+	width: 1rem;
+	height: 0.9rem;
+	line-height: 0.9rem;
+	/*font-weight: bold;*/
+	position: absolute;
+	bottom: 0;
+	color: #7b7b7b;
+	font-size: 0.7rem;
+	right: 0;
+	padding: 0 20px 1px 45px;
+	background: url("../img/ellipsis_bg.png") repeat-y;
+}
+.com_message a{
+	text-decoration: none;
+}
+
+/*公司信息开始*/
+.com_message{
+	width: 15rem;
+	margin-bottom: 0.4rem;
+	background-color: #FFFFFF;
+}
+
+
+.content_com {
+	width: 15rem;
+	padding: 0.5rem 0.6rem;
+	background-color: #FFFFFF;
+}
+
+.content_com .content_com_top {
+	text-align: center;
+}
+
+.content_com .content_com_top h4{
+	color: #5d5d5d;
+	font-size: 0.72rem;
+	line-height: 1.5rem;
+	font-weight: bold;
+}
+
+.content_com .content_com_top span {
+	color: #7b7b7b;
+	font-size: 0.5rem;
+	line-height: 0.48rem;
+}
+
+.content_com .content_com_top p {
+	color: #7b7b7b;
+	font-size: 0.6rem;
+	line-height: 0.9rem;
+	text-align: left;
+	display: block;
+	height: 2.5rem;
+}
+
+
+/*公司信息结束*/
+
+
+/*产品列表开始*/
+
+#Pro_introd {
+	width: 15rem;
+}
+
+#Pro_introd .pro_list .pro_person {
+	height: 5.32rem;
+}
+
+#Pro_introd .pro_list .pro_person .pro_img {
+	width: 4rem;
+}
+
+#Pro_introd .pro_list .pro_person .pro_img img {
+	width: 3rem;
+	height: 3rem;
+	margin: 0.6rem auto;
+	display: block;
+}
+
+#Pro_introd .pro_list .pro_person .pro_mess {
+	width: 9.3rem;
+	padding: 0.7rem 0.4rem;
+}
+
+#Pro_introd .pro_list .pro_person .pro_mess h4 {
+	color: #333333;
+	font-size: 0.68rem;
+	line-height: 0.9rem;
+	margin-bottom: 0.4rem;
+	display: block;
+}
+
+#Pro_introd .pro_list .pro_person .pro_mess .lett1 {
+	position: relative;
+	height: 1.7rem;
+	overflow: hidden;
+}
+
+#Pro_introd .pro_list .pro_person .pro_mess .lett1::after {
+	content: "...";
+	font-weight: bold;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	padding: 0 20px 1px 45px;
+	background: url("../img/ellipsis_bg.png") repeat-y;
+}
+
+#Pro_introd .pro_list .pro_person .pro_mess span {
+	color: #898989;
+	font-size: 0.6rem;
+	line-height: 0.9rem;
+	display: block;
+	height: 1.8rem;
+	overflow: hidden;
+}
+
+
+/*产品列表结束*/
+
+
+/*footer*/
+
+.footer p {
+	color: #7b7b7b;
+}
+
+
+/*弹出pop开始*/
+
+.pop {
+	width: 15rem;
+	height: 100%;
+	position: absolute;
+	/*padding: 5rem 1.4rem 0;*/
+	padding: 1.2rem;
+	top: 0;
+	left: 0;
+	z-index: 1000;
+	background: rgba(0, 0, 0, 0.85);
+	filter: progid: DXImageTransform.Microsoft.gradient(startColorstr=#c8000000, endColorstr=#c8000000);
+	/*IE8支持*/
+	/*display: none;*/
+}
+
+.pop>ul>li {
+	background: rgba(0, 162, 230, 0.8);
+	margin-bottom: 0.56rem;
+	border-radius: 1rem;
+	-moz-border-radius: 1rem;
+	/* Old Firefox */
+	padding-left: 1rem;
+}
+
+.pop>ul>li>a {
+	color: #FFFFFF;
+	line-height: 1rem;
+	font-size: 0.5rem;
+}
+
+
+/*弹出pop结束*/

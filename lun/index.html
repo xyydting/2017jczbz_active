@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1" />
+		<meta http-equiv="X-UA-Compatible" content="IE=9" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" ,user-scalable="no">
+		<meta name="keywords" content="关键词">
+		<meta name="description" content="描述">
+		<title>2017·微展会</title>
+		<link rel="stylesheet" href="./lib/bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" href="./css/common.css">
+	</head>
+
+	<body>
+		<div class="banner">
+			<!-- banner轮播图-->
+			<div id="carousel-example-generic" class="carousel slide">
+				<!-- 控制点的数量 -->
+				<ol class="carousel-indicators">
+					<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+					<li data-target="#carousel-example-generic" data-slide-to="1" ></li>
+					<li data-target="#carousel-example-generic" data-slide-to="2" ></li>
+					<li data-target="#carousel-example-generic" data-slide-to="3" ></li>
+				</ol>
+				<!-- 内容 -->
+				<div class="carousel-inner" role="listbox">
+					<div class="item active">
+						<a>
+							<img src="./img/banner1.jpg"  title=""/>
+						</a>
+					</div>
+					<div class="item">
+						<a>
+							<img src="./img/banner2.jpg"  title=""/>
+						</a>
+					</div>
+					<div class="item">
+						<a>
+							<img src="./img/banner3.jpg"  title=""/>
+						</a>
+					</div>
+					<div class="item">
+						<a>
+							<img src="./img/banner4.jpg"  title=""/>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="banner_back"><a href="../index.html">&lt;回到首页</a></div>
+	</body>
+	<script src="./lib/jquery-3.1.1.min.js"></script>
+	<script src="./lib/bootstrap/js/bootstrap.min.js"></script>
+	<script src="./js/index.js"></script>
+	<script src="./lib/jquery.placeholder.js"></script>
+	<script type="text/javascript">
+		(function() {
+			function o() {
+				document.documentElement.style.fontSize = (document.documentElement.clientWidth > 750 ? 750 : document.documentElement.clientWidth) / 15 + "px"
+			}
+			var e = null;
+			window.addEventListener("resize", function() {
+				clearTimeout(e), e = setTimeout(o, 300)
+			}, !1), o()
+		})(window);
+	</script>
+
+</html>

@@ -1,0 +1,159 @@
+@charset "UTF-8";
+
+/*初始化  reset*/
+
+html,
+body {
+	position: relative;
+	width: 100%;
+	font-family: "微软雅黑";
+}
+
+body {
+	background: #eee;
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	color: #000;
+	position: relative;
+}
+
+blockquote,
+body,
+button,
+dd,
+dl,
+dt,
+fieldset,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+input,
+legend,
+li,
+ol,
+p,
+pre,
+td,
+textarea,
+th,
+ul {
+	margin: 0;
+	padding: 0
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.w {
+	width: 1200px;
+	margin: 0 auto;
+	min-width: 1200px;
+}
+
+body,
+button,
+input,
+select,
+textarea {
+	font: 12px/1.5 "Microsoft YaHei", "微软雅黑", SimSun, "宋体", sans-serif;
+	color: #000;
+}
+
+ol,
+ul {
+	list-style: none
+}
+
+a {
+	text-decoration: none
+}
+
+fieldset,
+img {
+	border: 0;
+	vertical-align: top;
+}
+
+a,
+input,
+button,
+select,
+textarea {
+	outline: none;
+}
+
+a,
+button {
+	cursor: pointer;
+}
+
+.fl_l {
+	float: left;
+}
+
+.fl_r {
+	float: right;
+}
+
+.bbEc {
+	border-bottom: solid 1px #E2E2E2;
+}
+
+.fw_n {
+	font-weight: normal;
+}
+html {
+	position: relative;
+	font-family: '微软雅黑';
+}
+
+body {
+	background-color: #fff;
+	width: 15rem;
+	margin: 0 auto;
+	font-family: '微软雅黑';
+}
+
+/*内容中心上部banner图开始*/
+
+.banner {
+	width: 15rem;
+}
+
+.banner .item a img {
+	width: 15rem;
+	height: 8.34rem;
+	margin: 0rem auto;
+	display: block;
+}
+
+.carousel-indicators li {
+	width: 0.4rem;
+	height: 0.16rem;
+	background-color: #99AFC4;
+	border-radius: 1px;
+	border: none;
+	margin: 0.07rem;
+}
+
+.carousel-indicators .active {
+	width: 0.8rem;
+	height: 0.16rem;
+	margin: 0.07rem;
+	background-color: #21BBDF;
+}
+/*footer*/
+
+.footer p {
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 1.48rem;
+	font-size: 0.4rem;
+}
